@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/lab/!svn/ver/1054/mirrorengine/mirrorengine-core/src/main/java/bit/mirror/scoping
+END
+CandidateUrlFilterChain.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/lab/!svn/ver/1054/mirrorengine/mirrorengine-core/src/main/java/bit/mirror/scoping/CandidateUrlFilterChain.java
+END
+UrlSchemeFilter.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/lab/!svn/ver/1054/mirrorengine/mirrorengine-core/src/main/java/bit/mirror/scoping/UrlSchemeFilter.java
+END
+SameHostFilter.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/lab/!svn/ver/1054/mirrorengine/mirrorengine-core/src/main/java/bit/mirror/scoping/SameHostFilter.java
+END
+DecideResult.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/lab/!svn/ver/1054/mirrorengine/mirrorengine-core/src/main/java/bit/mirror/scoping/DecideResult.java
+END
+CandidateUrlFilter.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/lab/!svn/ver/1054/mirrorengine/mirrorengine-core/src/main/java/bit/mirror/scoping/CandidateUrlFilter.java
+END
+InitialUrlFilter.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/lab/!svn/ver/1054/mirrorengine/mirrorengine-core/src/main/java/bit/mirror/scoping/InitialUrlFilter.java
+END
+SeedInterestFilter.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/lab/!svn/ver/1054/mirrorengine/mirrorengine-core/src/main/java/bit/mirror/scoping/SeedInterestFilter.java
+END

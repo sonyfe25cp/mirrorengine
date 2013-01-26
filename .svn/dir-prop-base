@@ -1,0 +1,11 @@
+K 6
+ignore
+V 0
+
+K 10
+svn:ignore
+V 17
+*.class
+target/*
+
+END

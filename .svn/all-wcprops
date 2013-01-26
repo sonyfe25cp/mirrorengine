@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/svn/lab/!svn/ver/1226/mirrorengine
+END
+.project
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/lab/!svn/ver/1054/mirrorengine/.project
+END
+pom.xml
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/lab/!svn/ver/1115/mirrorengine/pom.xml
+END

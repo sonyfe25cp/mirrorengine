@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/lab/!svn/ver/1226/mirrorengine/mirrorengine-core/src/main/java/bit/mirror
+END
+MirrorEngine.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/lab/!svn/ver/1054/mirrorengine/mirrorengine-core/src/main/java/bit/mirror/MirrorEngine.java
+END
+MirrorEngineConfigException.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/lab/!svn/ver/1054/mirrorengine/mirrorengine-core/src/main/java/bit/mirror/MirrorEngineConfigException.java
+END

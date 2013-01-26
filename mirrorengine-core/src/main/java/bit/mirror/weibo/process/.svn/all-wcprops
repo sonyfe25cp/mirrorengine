@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/lab/!svn/ver/1226/mirrorengine/mirrorengine-core/src/main/java/bit/mirror/weibo/process
+END
+Fetcher.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/lab/!svn/ver/1226/mirrorengine/mirrorengine-core/src/main/java/bit/mirror/weibo/process/Fetcher.java
+END
+SinaWeiboCrawlerTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/lab/!svn/ver/1124/mirrorengine/mirrorengine-core/src/main/java/bit/mirror/weibo/process/SinaWeiboCrawlerTest.java
+END
+Saver.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/lab/!svn/ver/1124/mirrorengine/mirrorengine-core/src/main/java/bit/mirror/weibo/process/Saver.java
+END
+RedundancyFilter.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/lab/!svn/ver/1133/mirrorengine/mirrorengine-core/src/main/java/bit/mirror/weibo/process/RedundancyFilter.java
+END
+Login.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/lab/!svn/ver/1124/mirrorengine/mirrorengine-core/src/main/java/bit/mirror/weibo/process/Login.java
+END
+SeedProvider.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/lab/!svn/ver/1133/mirrorengine/mirrorengine-core/src/main/java/bit/mirror/weibo/process/SeedProvider.java
+END
+CommentExtractor.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/lab/!svn/ver/1124/mirrorengine/mirrorengine-core/src/main/java/bit/mirror/weibo/process/CommentExtractor.java
+END

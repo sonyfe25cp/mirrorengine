@@ -1,0 +1,60 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>bit.mirrorengine</groupId>
+	<artifactId>mirrorengine</artifactId>
+	<version>2.0.0</version>
+	<name>Mirror Engine</name>
+	<packaging>pom</packaging>
+
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+	</properties>
+
+	<repositories>
+		<repository>
+			<id>morphia-google-code-repo</id>
+			<url>http://morphia.googlecode.com/svn/mavenrepo/</url>
+		</repository>
+		<repository>
+			<id>bit-dlde-thirdparty</id>
+			<url>http://dlde-maven.at.bitunion.org:63987/content/repositories/thirdparty/</url>
+		</repository>
+	</repositories>
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<version>2.0.2</version>
+				<configuration>
+					<source>1.6</source>
+					<target>1.6</target>
+				</configuration>
+			</plugin>
+                        <plugin>
+                          <groupId>org.apache.maven.plugins</groupId>
+                                          <artifactId>maven-source-plugin</artifactId>
+                                          <executions>
+                                            <execution>
+                                            <id>attach-sources</id>
+                                            <goals>
+                                               <goal>jar</goal>
+                                            </goals>
+                                    </execution>
+                               </executions>
+                           </plugin>
+		</plugins>
+	</build>
+	<modules>
+		<module>mirrorengine-core</module>
+		<module>mirrorengine-standalone</module>
+	</modules>
+        <distributionManagement>
+          <snapshotRepository>
+            <id>thirdparty</id>
+            <name>thirdparty</name>
+            <url>http://10.1.0.127:11005/nexus/content/repositories/thirdparty/</url>
+          </snapshotRepository>
+        </distributionManagement>
+</project>

@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/lab/!svn/ver/1106/mirrorengine/mirrorengine-core/src/main/java/bit/mirror/processor
+END
+HttpFetcher.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/lab/!svn/ver/1106/mirrorengine/mirrorengine-core/src/main/java/bit/mirror/processor/HttpFetcher.java
+END
+ProcessorChain.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/lab/!svn/ver/1106/mirrorengine/mirrorengine-core/src/main/java/bit/mirror/processor/ProcessorChain.java
+END
+HtmlLinkExtractor.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/lab/!svn/ver/1106/mirrorengine/mirrorengine-core/src/main/java/bit/mirror/processor/HtmlLinkExtractor.java
+END
+DataSaver.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/lab/!svn/ver/1054/mirrorengine/mirrorengine-core/src/main/java/bit/mirror/processor/DataSaver.java
+END
+HtmlDecoder.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/lab/!svn/ver/1054/mirrorengine/mirrorengine-core/src/main/java/bit/mirror/processor/HtmlDecoder.java
+END
+WebPageLoader.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/lab/!svn/ver/1093/mirrorengine/mirrorengine-core/src/main/java/bit/mirror/processor/WebPageLoader.java
+END
+WebPageReporter.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/lab/!svn/ver/1106/mirrorengine/mirrorengine-core/src/main/java/bit/mirror/processor/WebPageReporter.java
+END

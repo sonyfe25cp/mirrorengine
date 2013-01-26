@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/lab/!svn/ver/1115/mirrorengine/mirrorengine-core/src/main/java/bit/mirror/util
+END
+StreamFormator.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/lab/!svn/ver/1115/mirrorengine/mirrorengine-core/src/main/java/bit/mirror/util/StreamFormator.java
+END
+ErrorTolerantInputStream.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/lab/!svn/ver/1054/mirrorengine/mirrorengine-core/src/main/java/bit/mirror/util/ErrorTolerantInputStream.java
+END
+EncodingGuesser.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/lab/!svn/ver/1054/mirrorengine/mirrorengine-core/src/main/java/bit/mirror/util/EncodingGuesser.java
+END

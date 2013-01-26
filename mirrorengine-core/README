@@ -1,0 +1,77 @@
+MirrorEngine - A Continuously-working Web Crawler.
+==================================================
+
+MirrorEngine is a web crawler.
+
+- It allow repeated crawling.
+- It is simple enough for embeded use.
+
+How to use
+==========
+
+The simple way
+--------------
+
+1. Install MongoDB. http://www.mongodb.org/
+2. Create a MirrorEngine object.
+   This will use the default database configuration. DB at localhost.
+   DB name is "mirrorengine", username and password are empty.
+3. Call MirrorEngine.start() to start.
+4. Manage the crawler by working with MirrorEngine.getCoordinator().
+5. Call MirrorEngine.stop() to stop the crawler.
+
+The complex way
+---------------
+
+1. Install MongoDB. http://www.mongodb.org/
+2. Create a Coordinator object.
+3. Create a MongoDao object or implement your own DAO by implementing
+   the MirrorEngineDao interface.
+4. Configure your DAO object.
+5. Call Coordinator.setDao passing your DAO object.
+6. Call Coordinator.start() to start.
+7. Manage the crawler by working the Coordinator.
+8. Call Coordinator.stop() to stop the crawler.
+
+Coordinator Properties
+----------------------
+
+suspended: Set to true to temporarily stop crawling. Set to false to
+           continue.(直接控制是否启动)
+sleepAfterCrawling: The delay after each download.
+loadSeedsOnStartup: Set to true and seeds will be loaded from the
+                    database.
+
+Seed management
+---------------
+
+You need to create your own Seed object. That describes everything
+about what to crawl.
+
+All these operations directly work with the database.
+
+Coordinator.submitSeed: Add (or update) a seed to the crawler.
+Coordinator.deleteSeed: Remove a seed from the crawler.
+Coordinator.setSeedEnabled: Enable or disable a seed. This seed will
+                        not be lost.
+Coordinator.refreshSeed(String seedName): Reload a seed from the
+                        database and restart this seed.
+
+About Seed
+----------
+
+Seed.initialUrls: The URLs to start crawling.(http://www.bit.edu.cn/ 末尾的/必须有)
+Seed.enabled: If false, this seed will not be used.
+Seed.depth: The max distance from any initialURL to any URL to be
+            downloaded.
+Seed.refresh: The time (in seconds) between automatically reloading the
+              seed.
+Seed.interests: Specifies what part of a site to be crawled.
+
+Interest: Currently only the regexp property is used.
+Interest.regexp: A regexp matching the URL to be crawled.
+
+Author
+======
+
+Kunshan Wang <wks1986@gmail.com>
