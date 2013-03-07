@@ -4,7 +4,7 @@
 	<parent>
 		<groupId>bit.mirrorengine</groupId>
 		<artifactId>mirrorengine</artifactId>
-		<version>0.1.0</version>
+		<version>2.1.2-SNAPSHOT</version>
 	</parent>
 	<groupId>${parent.groupId}</groupId>
 	<artifactId>${parent.artifactId}-standalone</artifactId>

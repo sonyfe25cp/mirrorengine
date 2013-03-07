@@ -1,15 +1,15 @@
-<?xml version="1.0"?>
 <project
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd"
 	xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<parent>
+		<groupId>bit.mirrorengine</groupId>
+		<artifactId>mirrorengine</artifactId>
+		<version>2.1.2-SNAPSHOT</version>
+	</parent>
 	<modelVersion>4.0.0</modelVersion>
-
-	<groupId>bit.mirrorengine</groupId>
 	<artifactId>mirrorengine-core</artifactId>
-	<version>2.1.2-SNAPSHOT</version>
 
 	<name>Mirror Engine core project</name>
-
 	<dependencies>
 		<dependency>
 			<groupId>net.sf.json-lib</groupId>
@@ -18,7 +18,7 @@
 			<classifier>jdk15</classifier>
 		</dependency>
 		<dependency>
-			<groupId>com.google.code</groupId>
+			<groupId>com.google.code.morphia</groupId>
 			<artifactId>morphia</artifactId>
 			<version>0.99</version>
 		</dependency>
@@ -66,11 +66,11 @@
 			<artifactId>slf4j-simple</artifactId>
 			<version>1.6.1</version>
 		</dependency>
-		<dependency>
-			<groupId>juniversalchardet</groupId>
-			<artifactId>juniversalchardet</artifactId>
-			<version>1.0.3</version>
-		</dependency>
+    <dependency>
+      <groupId>com.googlecode.juniversalchardet</groupId>
+      <artifactId>juniversalchardet</artifactId>
+      <version>1.0.3</version>
+    </dependency>
 
 		<dependency>
 			<groupId>net.sourceforge.htmlcleaner</groupId>
@@ -103,6 +103,7 @@
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-compiler-plugin</artifactId>
+        <version>2.3.2</version>
 				<configuration>
 					<source>1.6</source>
 					<target>1.6</target>
@@ -128,16 +129,6 @@
 		<repository>
 			<id>morphia-google-code-repo</id>
 			<url>http://morphia.googlecode.com/svn/mavenrepo/</url>
-		</repository>
-		<repository>
-			<id>snapshots</id>
-			<name>snapshots</name>
-			<url>http://dlde.at.bitunion.org:11005/nexus/content/repositories/snapshots</url>
-		</repository>
-		<repository>
-			<id>dlde</id>
-			<name>thirdparty</name>
-			<url>http://dlde.at.bitunion.org:11005/nexus/content/repositories/thirdparty</url>
 		</repository>
 	</repositories>
 	<distributionManagement>
